@@ -27,11 +27,9 @@ if match:
     try:
         # 加载 JSON 数据
         data = json.loads(json_text2)
-        print(data)
         # 从 JSON 数据中提取 songList
         data_2 = data.get("taogeData")
         song_list = data_2.get('songlist', [])
-        print(song_list)
 
         # 解析所需的数据并格式化输出
         for index,song in enumerate(song_list, start=1):
