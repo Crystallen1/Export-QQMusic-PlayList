@@ -23,14 +23,14 @@ if match:
         song_list = data.get('songList', [])
 
         # 解析所需的数据并格式化输出
-        for song in song_list:
+        for index,song in enumerate(song_list, start=1):
             song_name = song.get('name', 'Unknown')
             singers = song.get('singer', [])
             singer_names = ' / '.join([singer.get('name', 'Unknown') for singer in singers])
-            print(f"{song_name}    {singer_names}")
+            print(f"{index}. {song_name}    {singer_names}")
     except json.JSONDecodeError as e:
         print(f"JSON 解码错误: {e}")
         print("预处理后的 JSON 文本：")
-        print(json_text)  # 打印前 500 个字符
+        print(json_text)  # 打印错误字符
 else:
     print("未找到 JSON 数据，请检查正则表达式是否正确。")
