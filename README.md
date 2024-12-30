@@ -6,7 +6,7 @@
 https://www.tunemymusic.com/zh-CN/features/transfer
 
 tips: 看了几个别人的开源项目都是使用了QQ音乐的开发者工具提供的api查询，但是QQ音乐的开发者工具似乎关闭了注册入口，只有一个登录入口了。
-而不使用api的话只能拿到30歌单的前30条数据
+而不使用api的话只能拿到歌单的前30条数据
 
 ## 步骤
 ### 0. 安装python环境（如果没有）
