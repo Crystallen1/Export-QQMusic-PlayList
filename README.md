@@ -11,13 +11,18 @@
 git clone https://github.com/Crystallen1/exportQQMusic.git
 ```
 ### 2. 打卡QQ音乐网页版，并进入想转移的歌单界面
+![image](https://github.com/user-attachments/assets/6933021f-0986-4206-93ae-7e48192013de)
+![image](https://github.com/user-attachments/assets/ffdc32fd-d990-4beb-b3c2-6026445f6077)
 
 
 ### 3. 获取歌单信息
 #### 方法1
 在键盘输入 ctrl+s(windows)/command+s(mac),保存网站的html
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/d66257be-5103-4b52-86e1-cc2cc912ad7c" />
+
 #### 方法2
 打开浏览器的开发者工具（F12等），点击Network中的第一个名字是一串数字的（你的歌单的id），复制其中的Response，保存为一个html文件
+![image](https://github.com/user-attachments/assets/0c6098d8-df21-44fd-9112-e4b50ac2f628)
 
 
 将获取到的html文件放在第一步中得到的文件夹中
