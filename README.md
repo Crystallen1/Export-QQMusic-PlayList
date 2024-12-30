@@ -35,6 +35,10 @@ git clone https://github.com/Crystallen1/exportQQMusic.git
 
 ### 4.运行python脚本
 
+```python
+python export.py
+```
+
 就可以在控制台中得到歌单信息（歌曲+歌手），复制信息
 
 ### 5.将复制到的信息粘贴到网易云歌单的文字导入中
