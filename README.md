@@ -9,7 +9,7 @@ https://www.tunemymusic.com/zh-CN/features/transfer
 
 ### 1. 克隆仓库
 ``` 
-git clone https://github.com/Crystallen1/exportQQMusic.git
+https://github.com/Crystallen1/Export-QQMusic-PlayList.git
 ```
 ### 2. 将QQ音乐歌单分享到任意地方（如微信）并复制链接
 ![image](https://github.com/user-attachments/assets/93e23532-26ec-435d-9e31-86af5dec18f8)
